@@ -1,5 +1,5 @@
 # mission1_webdev
 
-Pamudya Putra Pamungkas\n
-201524058\n
+Pamudya Putra Pamungkas
+201524058
 3B-D4
