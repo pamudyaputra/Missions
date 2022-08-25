@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+.grid-container {
+  display: grid;
+  width : 80%;
+  height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(6, 15%);
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+}
+
+.textcolor{
+    color: #ffff00;
+}
+
+.bg-red{
+    background-color: #e06666;
+}
+
+.bg-green{
+    background-color: #00a15d;
+}
+
+.bg-purple{
+    background-color: #8e7cc3;
+}
+
+.bg-pink{
+    background-color: #ff9fd5;
+}
+
+.bg-lgreen{
+    background-color: #fed849;
+}
+
+.bg-blue{
+    background-color: #00a15d;
+}
+
+.bg-orange{
+    background-color: #ffc800;
+}
+
+.bg-yellow{
+    background-color: #ffff00;
+}
+
+.bg-dblue{
+    background-color: #3d85c6;
+}
+
+.item1{
+    /* merah */
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.item2{
+    /* hijau */
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.item3{
+    /* ungu */
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item4{
+    /* pink */
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+.item5{
+    /* hijaumud */
+    grid-column-start: 3;
+    grid-column-end: -1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.item6{
+    /* biru */
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.item7{
+    /* jingga */
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: -1;
+}
+
+.item8{
+    /* kuning */
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: -1;
+}
+
+.item9{
+    /* biru tua */
+    grid-column-start: 4;
+    grid-column-end: -1;
+    grid-row-start: 3;
+    grid-row-end: -1;
+}
+</style>
+</head>
+<body>
+
+<h1 class="text">Pamudya's Styling Box</h1>
+<div class="grid-container">
+    <div class="grid-item item1 text textcolor bg-red">
+        Merah
+    </div>
+    <div class="grid-item item2 text bg-green">
+        Hijau
+    </div>
+    <div class="grid-item item3 text bg-purple">
+        Ungu
+    </div>
+    <div class="grid-item item4 text bg-pink">
+        Pink
+    </div>
+    <div class="grid-item item5 text bg-lgreen">
+        Hijau Muda
+    </div>
+    <div class="grid-item item6 text bg-blue">
+        Biru
+    </div>
+    <div class="grid-item item7 text bg-orange">
+        Jingga
+    </div>
+    <div class="grid-item item8 text bg-yellow">
+        Kuning
+    </div>
+    <div class="grid-item item9 text textcolor bg-dblue">
+        Biru tua
+    </div>
+</div>
+
+</body>
+</html>
