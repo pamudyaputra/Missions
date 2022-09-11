@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Assets/styles.css" />
+    <script src="Assets/script.js"></script>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="mat pos-abs">
+      <img src="Assets/Images//mat.svg" class="img-width100" />
+    </div>
+    <div class="shadow pos-abs">
+      <img src="Assets/Images/bayangan.svg" id="shadow" class="img-width100" />
+      <script>
+        shadowIn("shadow", 10);
+      </script>
+    </div>
+    <div class="umb pos-abs">
+      <img src="Assets/Images/payung.svg" id="umb" class="img-width100" />
+      <script>
+        spinIn("umb", 10);
+      </script>
+    </div>
+    <div class="hat pos-abs">
+      <img src="Assets/Images/hat.svg" class="img-hat img-width100" />
+    </div>
+    <div class="cloud1 cloud pos-abs">
+      <img
+        id="cloud1"
+        src="Assets/Images/cloud1.svg"
+        class="img-opacity img-width100"
+      />
+      <script>
+        moveCloud1("cloud1", 20);
+      </script>
+    </div>
+    <div class="text pos-abs">
+      <img src="Assets/Images/text.png" id="text" class="img-width100" />
+      <script>
+        fadeAnimation("text", 100);
+        moveText("text", 20);
+      </script>
+    </div>
+    <div class="cloud2 cloud pos-abs">
+      <img
+        src="Assets/Images/cloud6.svg"
+        id="cloud2"
+        class="img-opacity img-width100"
+      />
+      <script>
+        moveCloud2("cloud2", 20);
+      </script>
+    </div>
+    <div class="cloud3 cloud pos-abs">
+      <img
+        src="Assets/Images/cloud5.svg"
+        id="cloud3"
+        class="img-opacity img-width100"
+      />
+    </div>
+    <script>
+      moveCloud3("cloud3", 20);
+    </script>
+    <div class="cloud4 cloud pos-abs">
+      <img
+        src="Assets/Images/cloud3.svg"
+        id="cloud4"
+        class="img-opacity img-width100"
+      />
+      <script>
+        moveCloud4("cloud4", 20);
+      </script>
+    </div>
+  </body>
+</html>
